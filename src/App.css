@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    background: #b0bec5;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-bottom: 26px;
+}
+
+.list li {
+    list-style: none;
+    padding-left: 12px;
+}
+
+.list span{
+    cursor: pointer;;
+}
+.main-div {
+    padding-top: 30px;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+}
+input.showinp {
+    padding: 15px 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+    
+}
+.main-div button {
+    background: repeating-linear-gradient(45deg, black, transparent 100px);
+    color: #fff;
+    height: 44px;
+    font-size: 26px;
+    width: 50px;;
+}
+.flex-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul {
+    padding-left: 0px;
+}
+span.del {
+    background: red;
+    color: #fff;
+    padding: 8px 12px;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
